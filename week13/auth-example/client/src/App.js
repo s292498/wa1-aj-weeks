@@ -12,7 +12,7 @@ import API from './API';
 
 function App() {
   const [exams, setExams] = useState([]);
-  const [loggedIn, setLoggedIn] = useState(false);
+  const [loggedIn,setLoggedIn]= useState(true);
   const [message, setMessage] = useState('');
 
   const getExams = async() => {
